@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Chin - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="dark-menu header">
+        <a href="/" class="logo">
+            <span class="grey-color">&lt;</span><span class="logo-name">Elizabeth Chin</span><span class="grey-color">/&gt;</span>
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn" style="color: white;">
+            <span class="navicon navicon-dark"></span>
+        </label>
+        <ul class="dark-menu menu">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li>
+                <label class="switch">
+                    <input type="checkbox" id="modeToggle">
+                    <span class="slider round">
+                        <span class="emoji">
+                            <img alt="🌜" draggable="false" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f31c.png" style="height: 1em; width: 1em; margin: 0 0.05em 0 0.1em; vertical-align: -0.1em;">
+                        </span>
+                    </span>
+                </label>
+            </li>
+        </ul>
+    </header>
+
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Hi all, I'm Elizabeth <span>👋</span></h2>
+            <p>
+                A Health Data Science professional with a Master’s degree from Dartmouth College, specializing in data analytics, machine learning, and health informatics. I bring experience in data wrangling, visualization, and regulatory-compliant analysis in healthcare.
+            </p>
+            <div class="buttons">
+                <button onclick="window.location.href='tel:+12399194448'">Contact Me</button>
+                <button onclick="window.open('Elizabeth_Chin_resume.pdf', '_blank')">See My Resume</button>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/ecql-byte"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="30"></a>
+                <a href="https://www.linkedin.com/in/elizabethchin1668/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="30"></a>
+                <a href="mailto:echin34119@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="30"></a>
+                <a href="https://www.instagram.com/ecql.26/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="30"></a>
+            </div>
+        </div>
+        <div class="intro-image">
+            <img src="./profile.jfif" alt="Illustrative Image" style="max-width: 100%; height: auto; max-height: 400px;">
+        </div>
+    </section>
+
+    <section class="skills-main-div" id="skills">
+        <div class="skills-illustration">
+            <img src="programmer.gif" alt="Illustration of a person working on a laptop" style="max-width: 100%; height: auto; max-height: 400px;">
+        </div>
+        <div class="skills-text">
+            <h2>What I Do</h2>
+            <p class="skills-description">DATA SCIENCE PROFESSIONAL PASSIONATE ABOUT HEALTHCARE INSIGHTS</p>
+            <div class="tech-icons">
+                <i class="fab fa-python" title="Python" style="font-size: 40px;"></i>
+                <i class="fas fa-project-diagram" title="R Programming" style="font-size: 40px;"></i>
+                <!-- Custom or use alternative -->
+                <i class="fas fa-database" title="SQL" style="font-size: 40px;"></i>
+                <i class="fas fa-chart-pie" title="Tableau" style="font-size: 40px;"></i>
+                <!-- Custom or use alternative -->
+                <i class="fas fa-chart-bar" title="Power BI" style="font-size: 40px;"></i>
+                <!-- Custom or use alternative -->
+                <i class="fas fa-file-excel" title="Excel" style="font-size: 40px;"></i>
+                <i class="fas fa-chart-line" title="SPSS" style="font-size: 40px;"></i>
+                <!-- Custom or use alternative -->
+                <i class="fas fa-book" title="Jupyter Notebook" style="font-size: 40px;"></i>
+                <!-- Custom or use alternative -->
+            </div>
+
+            <ul class="skills-list">
+                <li> Data visualization using Tableau and Power BI</li>
+                <li> Data wrangling and statistical modeling in Python and R</li>
+                <li> Applied machine learning for healthcare data insights</li>
+                <li> Experience with health informatics and HIPAA compliance</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="education-section" id="education">
+        <h1 class="education-heading">Education</h1>
+        <div class="education-card-container">
+            <div class="education-card">
+                <div class="education-card-left">
+                    <img class="education-roundedimg" src="college.jfif" alt="Dartmouth College Logo">
+                </div>
+                <div class="education-card-right">
+                    <h5 class="education-text-school">Dartmouth College, Hanover, NH</h5>
+                    <div class="education-text-details">
+                        <h5 class="education-text-subHeader">Master of Science in Health Data Science</h5>
+                        <p class="education-text-duration">Key Coursework: Data Visualization, Data Wrangling, Machine Learning, Applied Biostatistics, and more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-card-left">
+                    <img class="education-roundedimg" src="university.jfif" alt="University of Pittsburgh Logo">
+                </div>
+                <div class="education-card-right">
+                    <h5 class="education-text-school">University of Pittsburgh, Pittsburgh, PA</h5>
+                    <div class="education-text-details">
+                        <h5 class="education-text-subHeader">Bachelor of Science in Health Informatics, Magna Cum Laude</h5>
+                        <p class="education-text-duration">GPA: 3.7/4.0, Minor in Statistics</p>
+                        <p class="education-text-desc">Relevant coursework includes Database Design, Data Analytics, and Quality Management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+        <h1 class="experience-heading">Work Experiences</h1>
+        <div class="experience-cards-container">
+            <div class="experience-card">
+                <div class="experience-card-header">
+                    <img src="experience.png" alt="Elevance Health Logo" class="experience-logo">
+                    <h5 class="experience-company">Elevance Health, Las Vegas, NV (Remote)</h5>
+                </div>
+                <div class="experience-text-details">
+                    <h5 class="experience-role">Medicaid Business Analyst (Intern)</h5>
+                    <p class="experience-date">June 2023 – September 2024</p>
+                    <ul>
+                        <li>Worked on a system integration project, streamlining records for over 20,000 pediatric patients.</li>
+                        <li>Utilized Excel pivot tables to extract insights while adhering to HIPAA policies.</li>
+                        <li>Developed strategies to overcome operational challenges in data management.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h1 class="skills-heading">Personal & Academic Projects</h1>
+        <p class="project-subtitle">Some of my data analysis and machine learning projects</p>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="sleep.jfif" alt="Tracking Sleep Movement Project" class="card-image">
+                </div>
+                <div class="project-detail">
+                    <h5 class="card-title">Tracking Sleep Movement Using Wearable Technology | R Programming</h5>
+                    <p class="card-subtitle">Applied autoregression and spectral analyses on wearable data, uncovering trends in physical activity.</p>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/ecql-byte/Tracking-Sleep-Movement-Using-Wearable-Technologies" class="project-tag">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="store.png" alt="Super Store EDA" class="card-image">
+                </div>
+                <div class="project-detail">
+                    <h5 class="card-title">Super Store EDA | Python</h5>
+                    <p class="card-subtitle">Performed EDA on sales data to uncover trends impacting profitability.</p>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/ecql-byte/SuperStore-EDA" class="project-tag">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="drug.jfif" alt="Pharmaceutical Drug Introductions and Stock Performance" class="card-image">
+                </div>
+                <div class="project-detail">
+                    <h5 class="card-title">Pharmaceutical Drug Introductions and Stock Performance | Tableau</h5>
+                    <p class="card-subtitle">Analyzed drug launch data and its impact on stock prices using a Tableau dashboard.</p>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/ecql-byte/Pharmaceutical-Drug-Introductions-and-Stock-Performance" class="project-tag">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="tesla.png" alt="Tesla-Lucid Project" class="card-image">
+                </div>
+                <div class="project-detail">
+                    <h5 class="card-title">Tesla-Lucid Project | Python, Power BI</h5>
+                    <p class="card-subtitle">Built a model to predict Tesla and Lucid stock prices, visualized with Power BI.</p>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/ecql-byte/Tesla-Lucid-Project" class="project-tag">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="upma.jfif" alt="UPMC Hospital Ambulance Transfer Data Analysis" class="card-image">
+                </div>
+                <div class="project-detail">
+                    <h5 class="card-title">UPMC Hospital Ambulance Transfer Data Analysis | R Programming</h5>
+                    <p class="card-subtitle">Wrangled and visualized data on ambulance transfers to identify trends and ensure compliance.</p>
+                    <div class="project-card-footer">
+                        <a href="https://github.com/ecql-byte/UPMC-Hospital-s-Ambulance-Transfer-Data-Analysis" class="project-tag">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h1 class="contact-title">Contact Me <span class="emoji">☎️</span></h1>
+        <p class="contact-subtitle">DISCUSS A PROJECT OR HAVE A JOB OPENING? I'M ACTIVELY SEEKING NEW OPPORTUNITIES IN HEALTH DATA SCIENCE!</p>
+        <div class="contact-info">
+            <a href="tel:+1-239-919-4448" class="contact-detail">+1 (239) 919-4448</a><br>
+            <a href="mailto:echin34119@gmail.com" class="contact-detail">echin34119@gmail.com</a>
+        </div>
+        <div class="social-media">
+            <a href="https://linkedin.com/in/elizabethchin" class="icon linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+
+        </div>
+    </section>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
