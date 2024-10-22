@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-    color: #ac30e9 !importance;
+    color: #ac30e9 !important;
     font-size: 1.5em;
     text-decoration: none;
     display: flex;
