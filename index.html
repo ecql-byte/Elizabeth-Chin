@@ -12,7 +12,7 @@
 <body>
     <header class="dark-menu header">
         <a href="https://ecql-byte.github.io/Elizabeth-Chin" class="logo">
-            <span class="grey-color">&lt;</span><span class="logo-name">Elizabeth Chin</span><span class="grey-color">/&gt;</span>
+            <span class="grey-color">&lt;</span><span class="logo-name" id="logoName">Elizabeth Chin</span><span class="grey-color">/&gt;</span>
         </a>
         <input class="menu-btn" type="checkbox" id="menu-btn">
         <label class="menu-icon" for="menu-btn" style="color: white;">
@@ -224,6 +224,15 @@
 
     <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
     <script src="script.js"></script>
+    modeToggle.addEventListener('change', function () {
+    if (modeToggle.checked) {
+        // Light mode: Change logo name color
+        logoName.style.color = '#FF6347';  // Tomato color for light mode
+    } else {
+        // Dark mode: Default color
+        logoName.style.color = 'white';
+    }
+});
 </body>
 
 </html>
